@@ -1,0 +1,13 @@
+{
+    "name": "mmapredictor-db",
+    "version": "1.0.0",
+    "description": "MongoDB seeding script for MMA data",
+    "main": "init/seed.js",
+    "scripts": {
+      "seed": "node init/seed.js"
+    },
+    "dependencies": {
+      "mongoose": "^7.5.0",
+      "dotenv": "^16.3.1"
+    }
+  }
