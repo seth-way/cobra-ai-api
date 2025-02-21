@@ -1,0 +1,11 @@
+{
+  "name": "mmapredictor",
+  "version": "1.0.0",
+  "description": "API for hosting the MMA Predictor's server, db & ML",
+  "workspaces": [ "server", "db", "ml-model"],
+  "scripts": {
+    "server:dev": "cd server && npm run dev",
+    "db:dev": "cd db && npm run dev",
+    "ml:dev": "cd ml-model && npm run dev"
+  }
+}
